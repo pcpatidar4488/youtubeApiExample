@@ -59,7 +59,7 @@ public class MainActivity extends YouTubeBaseActivity implements
             player.loadVideo(Config.YOUTUBE_VIDEO_CODE);
 
             // Hiding player controls
-            player.setPlayerStyle(PlayerStyle.CHROMELESS);
+            player.setPlayerStyle(PlayerStyle.DEFAULT);
         }
     }
 
